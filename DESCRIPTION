@@ -1,13 +1,20 @@
 Package: samplr
-Title: What the Package Does (One Line, Title Case)
+Title: A Minimal Example of Package Creation
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person(given = "Antonio",
+           family = "Paez",
+           role = c("aut", "cre"),
+           email = "paezha@mcmaster.ca",
+           comment = c(ORCID = "0000-0001-6912-9919"))
+Description: An example of a minimal package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/paezha/samplr
+URL: https://github.com/paezha/samplr,
+    https://paezha.github.io/samplr/
 BugReports: https://github.com/paezha/samplr/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true

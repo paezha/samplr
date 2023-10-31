@@ -12,6 +12,7 @@ An example of a minimal package.
 Useful links:
 \itemize{
   \item \url{https://github.com/paezha/samplr}
+  \item \url{https://paezha.github.io/samplr/}
   \item Report bugs at \url{https://github.com/paezha/samplr/issues}
 }
 
